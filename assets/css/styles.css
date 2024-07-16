@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #1ebfc1;
+}
 
 html {
     font-size: 62.5%;
@@ -9,4 +12,128 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 41px;
+    min-width: 186px;
+    line-height: 68px;
+    border-radius: 14px;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Header  */
+.header {
+    background-color: #fff;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -28px;
+    z-index: 1;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 52px 0px 8px;
+}
+
+.header .nav {
+    margin-left: auto;
+}
+
+.header .body ul {
+    display: flex;
+    gap: 39px;
+}
+
+.header .nav .active,
+.header .action .active {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .action {
+    margin-left: 177px;
+}
+
+.header .btn.lv1 {
+    min-width: 108px;
+    line-height: 48px;
+    margin-left: 22px;
+    padding: 0;
+    background-color: #fff;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    font-size: 1.6rem;
+}
+
+/* Hero */
+.hero {
+    margin-top: 42px;
+    margin-bottom: 79px;
+}
+
+.hero .body {
+    display: flex;
+    align-items: center;
+}
+
+.hero .left-side .heading {
+    margin: 18px 0 46px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.hero .left-side .sub-title {
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+.hero .left-side .desc {
+    margin-bottom: 52px;
+    width: 374px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+
+.hero .left-side .action button {
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.hero .hero-img .image {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+    background: #e0f7f6;
 }
