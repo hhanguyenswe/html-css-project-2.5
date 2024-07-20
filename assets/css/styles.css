@@ -42,7 +42,7 @@ a {
 
 .line-clamp {
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    /* -webkit-line-clamp: 3; */
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
@@ -194,7 +194,6 @@ a {
 }
 
 .hero .right-side .block-2 .content {
-    /* display: flex; */
     justify-content: center;
 }
 .hero .right-side .block-2 .sub-title {
@@ -360,7 +359,6 @@ a {
 
 .courses .row-2 .image {
     border-radius: 0.8rem;
-    background-color: ;
     width: 359px;
     height: 393px;
     object-fit: cover;
