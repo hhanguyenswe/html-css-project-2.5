@@ -368,7 +368,16 @@ a {
     justify-content: center;
 }
 
+.courses .row-2 .block .background {
+    margin-top: -393px;
+    height: 393px;
+    border-radius: 0.8rem;
+    opacity: 0.35;
+    background: #d0efed;
+}
+
 .courses .row-2 .block .content {
+    position: relative;
     margin-top: -70px;
     margin-left: auto;
     margin-right: auto;
@@ -376,7 +385,7 @@ a {
     width: 325px;
     height: 195px;
     border-radius: 0.8rem;
-    background: red;
+    background: #fff;
     box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
 
@@ -423,4 +432,239 @@ a {
     height: 6px;
     background-color: #1ebfc1;
     border-radius: 50%;
+}
+
+.courses .counting {
+    margin-top: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 217px;
+}
+
+.courses .counting .title {
+    line-height: 9.3rem;
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.courses .counting .desc {
+    margin-top: 11px;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+
+/* Quotes */
+
+.quotes {
+    margin: 185px 0 130px;
+}
+.quotes .body {
+    display: flex;
+}
+
+.quotes .right-side {
+    padding: 37px 0;
+    width: 36%;
+}
+
+.quotes .desc {
+    margin: 27px 0 33px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.quotes .student-name {
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.quotes .student-name::before {
+    content: "";
+    display: inline-block;
+    background: #070707;
+    width: 0.8rem;
+    height: 0.2rem;
+    margin-right: 5px;
+}
+
+.quotes .student-name strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.quotes .cta-button {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.quotes .cta-button a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    background: #2ac9bf;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotes .cta-button .cta {
+    width: 6px;
+    height: 12px;
+}
+
+.quotes .right-side {
+    position: relative;
+}
+
+.quotes .right-side .img {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.quotes .right-side .img:first-of-type {
+    background-color: #ff8282;
+    top: 85px;
+    left: 345px;
+    width: 235px;
+    height: 235px;
+}
+
+.quotes .right-side .img:nth-of-type(2) {
+    width: 92px;
+    height: 92px;
+    background-color: #1ebfc1;
+    top: 0;
+    left: 216px;
+}
+
+.quotes .right-side .img:nth-of-type(3) {
+    width: 110px;
+    height: 110px;
+    background-color: #bf83ff;
+    top: 18px;
+    left: 641px;
+}
+
+.quotes .right-side .img:nth-of-type(4) {
+    width: 78px;
+    height: 78px;
+    top: 257px;
+    left: 72px;
+    background-color: #ffc147;
+}
+
+.quotes .right-side .img:nth-of-type(5) {
+    width: 78px;
+    height: 78px;
+    bottom: 0;
+    left: 284px;
+    background-color: #ff947a;
+}
+
+.quotes .right-side .img:nth-of-type(6) {
+    width: 78px;
+    height: 78px;
+    left: 641px;
+    bottom: 29px;
+    background-color: #b1dfdc;
+}
+
+/* admit */
+.admit {
+    width: 100%;
+    height: 272px;
+    background: #def6f5;
+}
+
+.admit .body {
+    display: flex;
+    gap: 410px;
+}
+
+.admit .title {
+    padding-top: 76px;
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 63px;
+}
+
+.admit .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.admit .cta {
+    margin-top: 96px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 359px;
+}
+
+.footer .row {
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer .title {
+    margin-bottom: 25px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.footer .list li {
+    margin-top: 20px;
+}
+
+.footer .list li a {
+    display: flex;
+    align-items: start;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer .list li a img {
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    display: block;
+    margin-top: 80px;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.footer .copyright p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
 }
