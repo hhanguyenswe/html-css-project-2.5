@@ -134,11 +134,13 @@ a {
 }
 
 .hero .left-side .action button {
+    border-radius: 50%;
     margin-left: 50px;
     width: 62px;
     height: 62px;
     border: none;
-    background: transparent;
+    background: #fff;
+    box-shadow: 0px 22px 50px 0px #ccc;
     cursor: pointer;
 }
 .hero .right-side {
@@ -290,6 +292,7 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .features .row {
@@ -499,6 +502,7 @@ a {
 }
 
 .quotes .student-name strong {
+    margin-right: 8px;
     color: #070707;
     font-size: 1.6rem;
     font-weight: 500;
